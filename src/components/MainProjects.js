@@ -6,16 +6,16 @@ import Social from "../images/social2.PNG";
 const MainProjects = () => {
   return (
     <section id='s1'>
-      <div class='main-container'>
+      <div className='main-container'>
         <h3 style={{ textAlign: "center" }}>Latest Projects </h3>
 
-        <div class='post-wrapper'>
+        <div className='post-wrapper'>
           <div>
-            <div class='post'>
-              <img class='thumbnail' src={Social} alt='Social Media App' />
-              <div class='post-preview'>
-                <h6 class='post-title'>Social Media App</h6>
-                <p class='post-intro'>
+            <div className='post'>
+              <img className='thumbnail' src={Social} alt='Social Media App' />
+              <div className='post-preview'>
+                <h6 className='post-title'>Social Media App</h6>
+                <p className='post-intro'>
                   Built & Deployed a social media app where you can register +
                   login + create + fetch + update and delete posts + comment +
                   like posts.
@@ -45,11 +45,11 @@ const MainProjects = () => {
           </div>
 
           <div>
-            <div class='post'>
-              <img class='thumbnail' src={Memories} alt='Memories App' />
-              <div class='post-preview'>
-                <h6 class='post-title'>Memories App - CRUD</h6>
-                <p class='post-intro'>
+            <div className='post'>
+              <img className='thumbnail' src={Memories} alt='Memories App' />
+              <div className='post-preview'>
+                <h6 className='post-title'>Memories App - CRUD</h6>
+                <p className='post-intro'>
                   Built & Deployed a CRUD App to create + save + fetch + update
                   and delete Memories with their pictures.
                   <br />
@@ -78,11 +78,11 @@ const MainProjects = () => {
           </div>
 
           <div>
-            <div class='post'>
-              <img class='thumbnail' src={Reddit} alt='Reddit clone App' />
-              <div class='post-preview'>
-                <h6 class='post-title'>a Reddit App clone</h6>
-                <p class='post-intro'>
+            <div className='post'>
+              <img className='thumbnail' src={Reddit} alt='Reddit clone App' />
+              <div className='post-preview'>
+                <h6 className='post-title'>a Reddit App clone</h6>
+                <p className='post-intro'>
                   Built & Deployed a reddit clone, where you can register +
                   login + create + fetch + update + delete posts + upvote +
                   downvote posts.

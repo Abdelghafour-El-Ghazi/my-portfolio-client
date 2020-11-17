@@ -6,16 +6,20 @@ import Expense from "../images/expense-tracker.PNG";
 const MiniProjects = () => {
   return (
     <section id='s1'>
-      <div class='main-container'>
+      <div className='main-container'>
         <h3 style={{ textAlign: "center" }}>Mini Projects</h3>
 
-        <div class='post-wrapper'>
+        <div className='post-wrapper'>
           <div>
-            <div class='post'>
-              <img class='thumbnail' src={Covid} alt='Covid 19 Tracker App' />
-              <div class='post-preview'>
-                <h6 class='post-title'>Covid-19 Tracker</h6>
-                <p class='post-intro'>
+            <div className='post'>
+              <img
+                className='thumbnail'
+                src={Covid}
+                alt='Covid 19 Tracker App'
+              />
+              <div className='post-preview'>
+                <h6 className='post-title'>Covid-19 Tracker</h6>
+                <p className='post-intro'>
                   Built & Deployed a Covid-19 Tracker that fetchs the live Covid
                   19 data from a daily updated API, showing then numbers and
                   visualizing the data on a Chart
@@ -45,11 +49,11 @@ const MiniProjects = () => {
           </div>
 
           <div>
-            <div class='post'>
-              <img class='thumbnail' src={Chat} alt='Chat App' />
-              <div class='post-preview'>
-                <h6 class='post-title'>Chat App -Real time chat</h6>
-                <p class='post-intro'>
+            <div className='post'>
+              <img className='thumbnail' src={Chat} alt='Chat App' />
+              <div className='post-preview'>
+                <h6 className='post-title'>Chat App -Real time chat</h6>
+                <p className='post-intro'>
                   Built & Deployed a chat app chere many people can join the
                   same room by only using the same name of theroom and chat in
                   real time
@@ -79,11 +83,15 @@ const MiniProjects = () => {
           </div>
 
           <div>
-            <div class='post'>
-              <img class='thumbnail' src={Expense} alt='Expense Tracker App' />
-              <div class='post-preview'>
-                <h6 class='post-title'>Expense Tracker</h6>
-                <p class='post-intro'>
+            <div className='post'>
+              <img
+                className='thumbnail'
+                src={Expense}
+                alt='Expense Tracker App'
+              />
+              <div className='post-preview'>
+                <h6 className='post-title'>Expense Tracker</h6>
+                <p className='post-intro'>
                   Built & Deployed a MERN stack expense tracker, where you can
                   add a list of your incomes and expenses and it does save it in
                   the MongoDB database for later.

@@ -4,9 +4,9 @@ import Photo from "../images/Capture.PNG";
 const More = () => {
   return (
     <section id='s2'>
-      <div class='main-container'>
-        <div class='about-wrapper'>
-          <div class='about-me'>
+      <div className='main-container'>
+        <div className='about-wrapper'>
+          <div className='about-me'>
             <h4>More about me</h4>
 
             <p>
@@ -29,14 +29,10 @@ const More = () => {
               Fullstack developer with primary focus on React + GraphQl:{" "}
               <div style={{ marginTop: "20px" }}>
                 &nbsp;
-                <a target='_blank' href='/'>
-                  Download Resume
-                </a>
+                <a href='/'>Download Resume</a>
               </div>
               <div style={{ margin: "20px" }}>
-                <a target='_blank' href='/'>
-                  Télécharger mon CV
-                </a>
+                <a href='/'>Télécharger mon CV</a>
               </div>
             </p>
 
@@ -60,7 +56,7 @@ const More = () => {
               </ul>
             </div>
           </div>
-          <div class='social-links'>
+          <div className='social-links'>
             <img id='social_img' src={Photo} alt='Github' />
             <h3>Find me on Github</h3>
 
