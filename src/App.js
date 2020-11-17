@@ -1,6 +1,5 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./App.css";
-
 import Intro from "./components/Intro";
 import MainProjects from "./components/MainProjects";
 import MiniProjects from "./components/MiniProjects";

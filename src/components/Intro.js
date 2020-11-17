@@ -1,8 +1,7 @@
 import React from "react";
-import Photo from "../images/pp.jpg";
-import { setLight, setBlue, setGreen, setPurple } from "../utils/themeSetters";
-
 import "../App.css";
+import Photo from "../images/pp.jpg";
+import { setBlue, setGreen, setLight, setPurple } from "../utils/themeSetters";
 
 const Intro = () => {
   return (

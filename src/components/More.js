@@ -61,7 +61,7 @@ const More = () => {
             </div>
           </div>
           <div class='social-links'>
-            <img id='social_img' src={Photo} />
+            <img id='social_img' src={Photo} alt='Github' />
             <h3>Find me on Github</h3>
 
             <a

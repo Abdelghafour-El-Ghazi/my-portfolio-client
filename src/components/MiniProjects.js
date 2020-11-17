@@ -1,7 +1,7 @@
 import React from "react";
+import Chat from "../images/chat.PNG";
 import Covid from "../images/covid-19.PNG";
 import Expense from "../images/expense-tracker.PNG";
-import Chat from "../images/chat.PNG";
 
 const MiniProjects = () => {
   return (

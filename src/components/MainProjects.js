@@ -1,7 +1,7 @@
 import React from "react";
-import Social from "../images/social2.PNG";
 import Memories from "../images/memories.PNG";
 import Reddit from "../images/reddit.PNG";
+import Social from "../images/social2.PNG";
 
 const MainProjects = () => {
   return (
