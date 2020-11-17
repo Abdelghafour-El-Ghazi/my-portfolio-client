@@ -12,7 +12,7 @@ const MiniProjects = () => {
         <div class='post-wrapper'>
           <div>
             <div class='post'>
-              <img class='thumbnail' src={Covid} />
+              <img class='thumbnail' src={Covid} alt='Covid 19 Tracker App' />
               <div class='post-preview'>
                 <h6 class='post-title'>Covid-19 Tracker</h6>
                 <p class='post-intro'>
@@ -46,7 +46,7 @@ const MiniProjects = () => {
 
           <div>
             <div class='post'>
-              <img class='thumbnail' src={Chat} />
+              <img class='thumbnail' src={Chat} alt='Chat App' />
               <div class='post-preview'>
                 <h6 class='post-title'>Chat App -Real time chat</h6>
                 <p class='post-intro'>
@@ -80,7 +80,7 @@ const MiniProjects = () => {
 
           <div>
             <div class='post'>
-              <img class='thumbnail' src={Expense} />
+              <img class='thumbnail' src={Expense} alt='Expense Tracker App' />
               <div class='post-preview'>
                 <h6 class='post-title'>Expense Tracker</h6>
                 <p class='post-intro'>

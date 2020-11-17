@@ -32,7 +32,7 @@ const Intro = () => {
           </div>
 
           <div className='left-column'>
-            <img id='profile_pic' src={Photo} />
+            <img id='profile_pic' src={Photo} alt='Abdelghafour EL GHAZI' />
             <h5 style={{ textAlign: "center", lineHeight: 0 }}>
               Personalize Theme
             </h5>

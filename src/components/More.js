@@ -29,10 +29,14 @@ const More = () => {
               Fullstack developer with primary focus on React + GraphQl:{" "}
               <div style={{ marginTop: "20px" }}>
                 &nbsp;
-                <a target='_blank'>Download Resume</a>
+                <a target='_blank' href='/'>
+                  Download Resume
+                </a>
               </div>
               <div style={{ margin: "20px" }}>
-                <a target='_blank'>Télécharger mon CV</a>
+                <a target='_blank' href='/'>
+                  Télécharger mon CV
+                </a>
               </div>
             </p>
 

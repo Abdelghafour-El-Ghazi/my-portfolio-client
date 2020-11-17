@@ -12,7 +12,7 @@ const MainProjects = () => {
         <div class='post-wrapper'>
           <div>
             <div class='post'>
-              <img class='thumbnail' src={Social} />
+              <img class='thumbnail' src={Social} alt='Social Media App' />
               <div class='post-preview'>
                 <h6 class='post-title'>Social Media App</h6>
                 <p class='post-intro'>
@@ -46,7 +46,7 @@ const MainProjects = () => {
 
           <div>
             <div class='post'>
-              <img class='thumbnail' src={Memories} />
+              <img class='thumbnail' src={Memories} alt='Memories App' />
               <div class='post-preview'>
                 <h6 class='post-title'>Memories App - CRUD</h6>
                 <p class='post-intro'>
@@ -79,7 +79,7 @@ const MainProjects = () => {
 
           <div>
             <div class='post'>
-              <img class='thumbnail' src={Reddit} />
+              <img class='thumbnail' src={Reddit} alt='Reddit clone App' />
               <div class='post-preview'>
                 <h6 class='post-title'>a Reddit App clone</h6>
                 <p class='post-intro'>
