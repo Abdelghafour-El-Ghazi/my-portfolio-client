@@ -59,9 +59,9 @@ const Intro = () => {
                 className='theme-dot'></div>
             </div>
 
-            <p id='settings-note'>
+            {/* <p id='settings-note'>
               *Theme settings will be saved for <br /> your next vist
-            </p>
+            </p> */}
           </div>
 
           <div className='right-column'>
