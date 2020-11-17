@@ -38,7 +38,7 @@ const MiniProjects = () => {
                   </a>
 
                   <a
-                    href='https://covid-19-tracker-2021.netlify.app/'
+                    href='https://covid-19-tracker-abdelghafour-elghazi.netlify.app/'
                     rel='noreferrer'
                     target='_blank'>
                     Demo
