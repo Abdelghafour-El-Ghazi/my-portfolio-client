@@ -1,11 +1,12 @@
 import React from "react";
 import Photo from "../images/pp.jpg";
+import { setLight, setBlue, setGreen, setPurple } from "../utils/themeSetters";
 
 import "../App.css";
 
 const Intro = () => {
   return (
-    <>
+    <section id='s1'>
       <div className='main-container'>
         <div className='greeting-wrapper'>
           <h1>Hi, I'm Abdelghafour EL GHAZI</h1>
@@ -21,11 +22,13 @@ const Intro = () => {
               </div>
             </a>
 
-            <ul id='navigation'>
+            {/* <ul id='navigation'>
               <li>
-                <a href='index.html#contact'>Contact</a>
+                <a onClick={executeScroll} style={{ cursor: "pointer" }}>
+                  Contact
+                </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           <div className='left-column'>
@@ -37,14 +40,21 @@ const Intro = () => {
             <div id='theme-options-wrapper'>
               <div
                 data-mode='light'
+                onClick={() => setLight()}
                 id='light-mode'
                 className='theme-dot'></div>
-              <div data-mode='blue' id='blue-mode' className='theme-dot'></div>
               <div
+                onClick={() => setBlue()}
+                data-mode='blue'
+                id='blue-mode'
+                className='theme-dot'></div>
+              <div
+                onClick={() => setGreen()}
                 data-mode='green'
                 id='green-mode'
                 className='theme-dot'></div>
               <div
+                onClick={() => setPurple()}
                 data-mode='purple'
                 id='purple-mode'
                 className='theme-dot'></div>
@@ -69,7 +79,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 
