@@ -59,9 +59,10 @@ const Intro = () => {
                 className='theme-dot'></div>
             </div>
 
-            {/* <p id='settings-note'>
-              *Theme settings will be saved for <br /> your next vist
-            </p> */}
+            <p id='settings-note'>
+              *Click on a dot <br />
+              To change the theme of the page
+            </p>
           </div>
 
           <div className='right-column'>
