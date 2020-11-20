@@ -13,21 +13,11 @@ const Intro = () => {
 
         <div className='intro-wrapper'>
           <div className='nav-wrapper'>
-            <a href='index.html'>
-              <div className='dots-wrapper'>
-                <div id='dot-1' className='browser-dot'></div>
-                <div id='dot-2' className='browser-dot'></div>
-                <div id='dot-3' className='browser-dot'></div>
-              </div>
-            </a>
-
-            {/* <ul id='navigation'>
-              <li>
-                <a onClick={executeScroll} style={{ cursor: "pointer" }}>
-                  Contact
-                </a>
-              </li>
-            </ul> */}
+            <div className='dots-wrapper'>
+              <div id='dot-1' className='browser-dot'></div>
+              <div id='dot-2' className='browser-dot'></div>
+              <div id='dot-3' className='browser-dot'></div>
+            </div>
           </div>
 
           <div className='left-column'>
@@ -62,6 +52,8 @@ const Intro = () => {
             <p id='settings-note'>
               *Click on a dot <br />
               To change the theme of the page
+              <br />
+              ***
             </p>
           </div>
 

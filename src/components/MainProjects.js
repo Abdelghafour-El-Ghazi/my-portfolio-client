@@ -83,9 +83,8 @@ const MainProjects = () => {
               <div className='post-preview'>
                 <h6 className='post-title'>a Reddit App clone</h6>
                 <p className='post-intro'>
-                  Built & Deployed a reddit clone, where you can register +
-                  login + create + fetch + update + delete posts + upvote +
-                  downvote posts.
+                  Built a reddit clone, where you can register + login + create
+                  + fetch + update + delete posts + upvote + downvote posts.
                   <br />
                   <div style={{ fontWeight: "bold", marginTop: "15px" }}>
                     Using React + Typescript + GraphQL + URQL + Node.js +

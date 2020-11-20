@@ -54,8 +54,8 @@ const MiniProjects = () => {
               <div className='post-preview'>
                 <h6 className='post-title'>Chat App -Real time chat</h6>
                 <p className='post-intro'>
-                  Built & Deployed a chat app chere many people can join the
-                  same room by only using the same name of theroom and chat in
+                  Built & Deployed a chat app where many people can join the
+                  same room by only using the same name of the room and chat in
                   real time
                   <br />
                   <div style={{ fontWeight: "bold", marginTop: "15px" }}>

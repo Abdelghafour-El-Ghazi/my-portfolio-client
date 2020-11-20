@@ -328,6 +328,12 @@
   .right-column {
     justify-content: center;
   }
+  .toggle {
+    left: 0px;
+  }
+  .toggle:after {
+    left: 0px;
+  }
 }
 
 @media screen and (max-width: 400px) {

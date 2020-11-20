@@ -1,5 +1,7 @@
 import React from "react";
 import Photo from "../images/Capture.PNG";
+import cv from "../resumes/Abdelghafour-el-ghazi.pdf";
+import resume from "../resumes/Abdelghafour_EL_GHAZI.pdf";
 
 const More = () => {
   return (
@@ -29,10 +31,16 @@ const More = () => {
               Fullstack developer with primary focus on React + GraphQl:{" "}
               <div style={{ marginTop: "20px" }}>
                 &nbsp;
-                <a href='/'>Download Resume</a>
+                <a target='_blank' href={resume} download>
+                  Download Resume{" "}
+                </a>{" "}
+                (English)
               </div>
               <div style={{ margin: "20px" }}>
-                <a href='/'>Télécharger mon CV</a>
+                <a target='_blank' href={cv} download>
+                  Télécharger mon CV
+                </a>{" "}
+                (French)
               </div>
             </p>
 
