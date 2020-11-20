@@ -88,7 +88,7 @@ const MainProjects = () => {
                   <br />
                   <div style={{ fontWeight: "bold", marginTop: "15px" }}>
                     Using React + Typescript + GraphQL + URQL + Node.js +
-                    PostgreSQL + MikroORM + Redis + Next.js + TypeGraphQL +
+                    PostgreSQL + TypeORM + Redis + Next.js + TypeGraphQL +
                     Chakra
                   </div>
                 </p>
