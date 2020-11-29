@@ -64,6 +64,8 @@ const Intro = () => {
               To change the theme of the page
               <br />
               ***
+              <br />
+              It will change Automatically every 20 second
             </p>
           </div>
 
