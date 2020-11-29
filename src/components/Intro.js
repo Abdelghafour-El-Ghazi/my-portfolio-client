@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
 import Photo from "../images/pp.jpg";
 import { setBlue, setGreen, setLight, setPurple } from "../utils/themeSetters";
 
 const Intro = () => {
+  const setters = [setBlue, setGreen, setLight, setPurple];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const i = Math.floor(Math.random() * 4);
+      // console.log(i);
+      setters[i]();
+    }, 20000);
+
+    return () => clearInterval(interval);
+  }, []);
   return (
     <section id='s1'>
       <div className='main-container'>
