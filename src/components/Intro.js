@@ -9,7 +9,7 @@ const Intro = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       const i = Math.floor(Math.random() * 4);
-      // console.log(i);
+
       setters[i]();
     }, 20000);
 
