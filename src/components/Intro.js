@@ -4,10 +4,9 @@ import Photo from "../images/pp.jpg";
 import { setBlue, setGreen, setLight, setPurple } from "../utils/themeSetters";
 
 const Intro = () => {
-  const setters = [setBlue, setGreen, setLight, setPurple];
-
   useEffect(() => {
     const interval = setInterval(() => {
+      const setters = [setBlue, setGreen, setLight, setPurple];
       const i = Math.floor(Math.random() * 4);
 
       setters[i]();
