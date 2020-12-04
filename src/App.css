@@ -348,3 +348,9 @@
     width: 280px;
   }
 }
+
+#github {
+  height: 2.5em;
+  width: auto;
+  margin-right: 1em;
+}

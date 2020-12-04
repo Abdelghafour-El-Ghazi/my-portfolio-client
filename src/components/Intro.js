@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "../App.css";
 import Photo from "../images/pp.jpg";
+import Github from "../images/github.png";
 import { setBlue, setGreen, setLight, setPurple } from "../utils/themeSetters";
 
 const Intro = () => {
@@ -28,6 +29,18 @@ const Intro = () => {
               <div id='dot-2' className='browser-dot'></div>
               <div id='dot-3' className='browser-dot'></div>
             </div>
+            <a
+              href='https://github.com/Abdelghafour-El-Ghazi/my-portfolio-client'
+              target='_blank'
+              rel='noreferrer'>
+              {" "}
+              <img
+                src={Github}
+                id='github'
+                className='github'
+                alt='github link'
+              />{" "}
+            </a>
           </div>
 
           <div className='left-column'>
