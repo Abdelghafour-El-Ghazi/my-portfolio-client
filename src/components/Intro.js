@@ -87,7 +87,7 @@ const Intro = () => {
                 <div id='corner-tl' className='corner'></div>
                 <div id='corner-tr' className='corner'></div>
                 <h3>What I Do</h3>
-                <p>I'm a computer science student and a React web Developer</p>
+                <p>I'm a FullStack Javascript Developer</p>
                 <div id='corner-br' className='corner'></div>
                 <div id='corner-bl' className='corner'></div>
               </div>

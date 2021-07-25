@@ -15,11 +15,11 @@ const More = () => {
               I build new projects just to tickle my brain and love teaching
               others how they're made.
               <br />
-              For Now, I'm in love with the MERN stack and especially React.
+              I'm in love with Javascript.
             </p>
 
             <p>
-              I'm looking for an internship as a Front-End, Back-End or a
+              I'm looking for a Full Time Job as a Front-End, Back-End or a
               Fullstack Web Developer
             </p>
 
@@ -47,11 +47,13 @@ const More = () => {
             <div id='skills'>
               <ul>
                 <li>React</li>
+                <li>AWS</li>
                 <li>Redux</li>
                 <li>JavaScript</li>
                 <li>NodeJS</li>
                 <li>Express JS</li>
                 <li>MongoDB</li>
+                <li>DynamoDB</li>
               </ul>
 
               <ul>
@@ -61,6 +63,8 @@ const More = () => {
                 <li>Netlify</li>
                 <li>Postgres</li>
                 <li>MySQL</li>
+                <li>Lambda</li>
+                <li>S3</li>
               </ul>
             </div>
           </div>
